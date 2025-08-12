@@ -29,7 +29,7 @@ Configuring the Host Name： hostnamectl set-hostname  host name
 configuration /etc/hosts file
 
 ## The password - free login is configured
-Deployment machine，No secret login is required between the DataSophon node and the primary and secondary nodes of the big data service.
+Deployment machine，No secret login is required between the NexusFabric node and the primary and secondary nodes of the big data service.
 
 Generate an ssh key： ssh-keygen -m PEM -t rsa ，Press enter all the way.
 

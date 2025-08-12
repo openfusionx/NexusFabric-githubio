@@ -26,17 +26,17 @@ There are three types of service roles: Master roles,Worker roles,Client roles.
 
 * Management Node
 
-Deploy DataSophon a group of hosts on the management end.
+Deploy NexusFabric a group of hosts on the management end.
 
 * Worker Nodes
 
-Deploy DataSophon a group of hosts at the working end.
+Deploy NexusFabric a group of hosts at the working end.
 
-* DataSophon platform management end
+* NexusFabric platform management end
 
-DataSophon Platform management end，provide Web Ui，Responsible for communication with the working end of DataSophon platform，Send service management operation instructions.
+NexusFabric Platform management end，provide Web Ui，Responsible for communication with the working end of NexusFabric platform，Send service management operation instructions.
 
-* DataSophon platform working end
+* NexusFabric platform working end
 
-A service for which the DataSophon platform executes instructions，Execute the operation instructions sent by the management end.
+A service for which the NexusFabric platform executes instructions，Execute the operation instructions sent by the management end.
 
