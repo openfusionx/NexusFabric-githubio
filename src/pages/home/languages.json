@@ -64,34 +64,19 @@
     },
     "feature": [
       {
-        "title": "极易部署",
-        "icon": "lni-code",
-        "details": "用户仅需几步即可完成初始化环境配置，可快速完成300个节点规模的大数据集群部署"
-      },
-      {
-        "title": "兼容开源生态",
-        "icon": "lni-layers",
-        "details": "全面兼容开源生态，基于开放式的管理架构，已集成多种常用大数据组件，包括数据集成、数据存储、计算引擎、任务调度、权限管理等大数据处理的各个环节"
-      },
-      {
-        "title": "兼容复杂环境",
-        "icon": "lni-library",
-        "details": "极简的架构设计，使其极易适配各种复杂环境，支持arm和x86机器混合部署，支持常用的Linux生态操作系统"
-      },
-      {
-        "title": "便捷运维",
+        "title": "Easy to use",
         "icon": "lni-magnet",
-        "details": "DataSophon可方便地对集群、节点和服务进行监控和运维操作，助您大幅提升运维工作效率，让数据工程师更专注于业务开发"
+        "details": "Complete deployment of big data clusters with thousands of nodes in just a few steps. GUI operations make it easy to manage various big data components, greatly improving O&M efficiency."
       },
       {
-        "title": "安全可靠",
-        "icon": "lni-shuffle",
-        "details": "DataSophon支持Kerberos身份认证和数据加密，使用Ranger数据访问控制。支持数据加密，保证数据安全"
+        "title": "High compatibility",
+        "icon": "lni-library",
+        "details": "Fully compatible with the open-source ecosystem. Supports many common big data components and adapts to complex environments, including common Linux distributions and both ARM and x86 machines."
       },
       {
-        "title": "便捷告警",
-        "icon": "lni-display-alt",
-        "details": "支持告警组和告警指标管理，监控指标全面丰富，用户可根据监控指标自定义告警组和告警指标。"
+        "title": "Cloud native",
+        "icon": "lni-layers",
+        "details": "Supports running big data services in containers and leverages Kubernetes for automated O&M and tuning, avoiding tedious manual optimization."
       }
     ]
   }

@@ -26,7 +26,6 @@ export default function() {
 
     return (
         <Layout
-            title={siteConfig.title}
             description="Description will go into a meta tag in <head />">
             <main>
                 <Home/>

@@ -25,7 +25,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DataSophon',
+  title: 'Nexus Fabric',
   tagline: '致力于快速实现部署、管理、监控以及自动化运维大数据云原生平台，帮助您快速构建起稳定、高效、可弹性伸缩的大数据云原生平台',
   url: 'https://datasophon.github.io',
   baseUrl: '/datasophon-website/',
@@ -51,23 +51,7 @@ const config = {
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
     },
   },
-  themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
-        // config url is: https://github.com/easyops-cn/docusaurus-search-local#theme-options
-        hashed: true,
-        indexDocs: true,
-        indexPages: true,
-        highlightSearchTermsOnTargetPage: false, // Highlight search terms on target page.
-        explicitSearchResultPath: true,
-        searchBarPosition: "right",
-        searchBarShortcutHint: false, // Whether to show keyboard shortcut hint in search bar. Disable it if you need to hide the hint while shortcut is still enabled.
-        language: ["zh", "en"],
-        hideSearchBarWithNoSearchContext: true,
-      }),
-    ],
-  ],
+  themes: [],
 
   presets: [
     [
@@ -89,15 +73,8 @@ const config = {
           editUrl:
             'https://github.com/datasophon/datasophon-website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          blogSidebarTitle: '全部博文',
-          blogSidebarCount: 'ALL',
-          editUrl:
-            'https://github.com/datasophon/datasophon-websiter',
-        },
+        // 移除博客配置
+        // blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -113,13 +90,14 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      navbar: {
-        title: 'DataSophon',
-        logo: {
-          alt: 'DataSophon Logo',
-          src: 'img/brand.png',
-        },
+              navbar: {
+          title: '',
+          logo: {
+            alt: 'Brand Logo',
+            src: 'img/brand.png',
+          },
         items: [
+          // custom html removed to use theme Navbar/Logo.js override
           {
             type: 'doc',
             docId: '概览',
@@ -148,7 +126,8 @@ const config = {
         //   dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
         //   dropdownActiveClassDisabled: true,
         // },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // 移除博客链接
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/datasophon/datasophon',
             label: 'GitHub',
@@ -169,7 +148,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               // {
               //   label: 'Stack Overflow',
@@ -186,12 +165,13 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // 移除页脚中的博客链接
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub Issues',
                 href: 'https://github.com/datasophon/datasophon/issues',
@@ -199,7 +179,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright  ${new Date().getFullYear()} openfusionx`,
       },
       prism: {
         theme: lightCodeTheme,

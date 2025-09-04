@@ -3,7 +3,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import './index.less';
 import './theme.less';
 
-import Hero from "./hero";
+import Content from "./content";
 import Feature from "./feature";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,7 +21,7 @@ export default function () {
         });
         window.addEventListener('load', AOS.refresh);
         return <div className="home-wrap">
-          <Hero />
+          <Content />
           <Feature />
           {/* <Performance /> */}
         </div>;

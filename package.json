@@ -18,7 +18,6 @@
     "@docusaurus/plugin-content-docs": "^2.0.1",
     "@docusaurus/preset-classic": "^2.1.0",
     "@docusaurus/theme-live-codeblock": "^2.1.0",
-    "@easyops-cn/docusaurus-search-local": "^0.33.5",
     "@mdx-js/react": "^1.6.22",
     "aos": "^2.3.4",
     "clsx": "^1.1.1",
