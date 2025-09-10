@@ -25,18 +25,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Nexus Fabric',
+  title: 'NexusFabric',
   tagline: '致力于快速实现部署、管理、监控以及自动化运维大数据云原生平台，帮助您快速构建起稳定、高效、可弹性伸缩的大数据云原生平台',
-  url: 'https://datasophon.github.io',
-  baseUrl: '/datasophon-website/',
+  url: 'https://openfusionx.github.io',
+  baseUrl: '/NexusFabric-githubio/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/brand.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'datasophon', // Usually your GitHub org/user name.
-  projectName: 'datasophon-website', // Usually your repo name.
+  organizationName: 'openfusionx', // Usually your GitHub org/user name.
+  projectName: 'NexusFabric-githubio', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -71,7 +71,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/datasophon/datasophon-website/',
+            'https://github.com/openfusionx/NexusFabric-githubio/',
         },
         // 移除博客配置
         // blog: false,
@@ -115,7 +115,7 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/datasophon/datasophon-website/',
+                href: 'https://github.com/openfusionx/NexusFabric-githubio/',
                 label: 'Help Us Translate',
               },
             ],
@@ -129,7 +129,7 @@ const config = {
           // 移除博客链接
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/datasophon/datasophon',
+            href: 'https://github.com/openfusionx/NexusFabric-githubio',
             label: 'GitHub',
             position: 'left',
           },
@@ -156,7 +156,7 @@ const config = {
               // },
               {
                 label: 'Github Discussion',
-                href: 'https://github.com/datasophon/datasophon',
+                href: 'https://github.com/openfusionx/NexusFabric-githubio',
               },
               // {
               //   label: 'Twitter',
@@ -174,7 +174,7 @@ const config = {
               // },
               {
                 label: 'GitHub Issues',
-                href: 'https://github.com/datasophon/datasophon/issues',
+                href: 'https://github.com/openfusionx/NexusFabric-githubio/issues',
               },
             ],
           },
