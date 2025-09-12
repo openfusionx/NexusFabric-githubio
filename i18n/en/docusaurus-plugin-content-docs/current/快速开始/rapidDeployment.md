@@ -76,7 +76,7 @@ Upload download a deployment package to/opt/datasophon/DDP/packages directory,As
 
 ![image-20221111162257092](./imgs/image-20221111162257092.png)
 
-## Deploy DataSophon
+## Deploy NexusFabric
 
 ### 1 Deployment Directory Introduction
 

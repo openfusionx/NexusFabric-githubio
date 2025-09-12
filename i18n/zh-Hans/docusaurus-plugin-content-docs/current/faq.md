@@ -22,7 +22,7 @@ title: FAQ
 
 二、查询操作系统OpenSSH版本。
 
-   DataSophon使用jsch进行远程主机连接，jsch与openssh版本存在兼容问题，会导致主机连接失败。若出现因OpenSsh版本过高，可通过**手动部署DataSophon Worker的方式自动跳过主机连接校验与主机agent分发两个步骤，手动部署Worker时，DataSophon Manager需为启动状态**。
+   NexusFabric使用jsch进行远程主机连接，jsch与openssh版本存在兼容问题，会导致主机连接失败。若出现因OpenSsh版本过高，可通过**手动部署NexusFabric Worker的方式自动跳过主机连接校验与主机agent分发两个步骤，手动部署Worker时，NexusFabric Manager需为启动状态**。
 
 三、手动部署worker步骤：
 

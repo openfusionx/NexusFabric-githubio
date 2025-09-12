@@ -78,7 +78,7 @@ Priority分为四级: Critical、Major、Minor、Trivial
 **屏幕截图和动态GIF图**
 ![复现步骤的屏幕截图和动态GIF图](图片的url)
 
-**DataSophon 版本:(以1.0.1为例)** 
+**NexusFabric 版本:(以1.0.1为例)** 
  -[1.0.1]
  
 **补充的内容:**

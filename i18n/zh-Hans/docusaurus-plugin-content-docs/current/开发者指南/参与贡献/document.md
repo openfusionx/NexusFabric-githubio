@@ -7,11 +7,11 @@ title: 文档贡献
 
 
 
-良好的使用文档对任何类型的软件都是至关重要的。欢迎任何可以改进 DataSophon文档的贡献。
+良好的使用文档对任何类型的软件都是至关重要的。欢迎任何可以改进 NexusFabric文档的贡献。
 
 ### 获取文档项目
 
-DataSophon项目的文档维护在 [datasophon-website](https://github.com/datasophon/datasophon-website) 。
+NexusFabric项目的文档维护在 [datasophon-website](https://github.com/datasophon/datasophon-website) 。
 
 首先你需要先将源项目 fork 到自己的 github 仓库中，然后将 fork 的文档克隆到本地计算机中。
 
