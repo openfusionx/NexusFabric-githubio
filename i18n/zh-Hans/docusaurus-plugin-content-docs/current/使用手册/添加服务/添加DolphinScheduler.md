@@ -1,11 +1,4 @@
----
-sidebar_position: 11
-sidebar_label: 添加DolphinScheduler
----
-
-# 添加DolphinScheduler
-
-初始化DolphinScheduler数据库。
+在mysql服务上初始化Dolphinscheduler所需数据库
 
 ```
 CREATE DATABASE dolphinscheduler DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
@@ -14,22 +7,32 @@ GRANT ALL PRIVILEGES ON dolphinscheduler.* TO 'dolphinscheduler'@'localhost' IDE
 flush privileges;
 ```
 
-执行/opt/datasophon/DDP/packages目录下**dolphinscheduler_mysql.sql**创建dolphinscheduler数据库表。
+执行/opt/datasophon/DDP/packages目录下dolphinscheduler_mysql.sql创建dolphinscheduler数据库表。
 
-添加DolphinScheduler。
+【服务管理】【添加服务】选择DolphinScheduler
 
-![image-20221128175432778](../img/image-20221128175432778.png)
+![ds-1.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-1.png)
 
-![image-20221128175519219](../img/image-20221128175519219.png)
+分配master角色
 
-![image-20221128175551807](../img/image-20221128175551807.png)
+![ds-2.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-2.png)
 
-根据实际情况，修改DolphinScheduler配置。
+添加workerserver
 
-![image-20221128175644449](../img/image-20221128175644449.png)
+![ds-3.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-3.png)
 
-开始安装DolphinScheduler，安装成功后可以看到DolphinScheduler总览页面，可以通过WebUi打开DolphinScheduler页面。
+在【服务配置】页面，修改配置，注意之前创建的mysql所在的服务器与用户名密码
 
-![image-20221128180511535](../img/image-20221128180511535.png)
+![ds-4.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-4.png)
 
-![image-20221128180038155](../img/image-20221128180038155.png)
+开始安装
+
+![ds-5.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-5.png)
+
+完成之后在【服务管理】中查看总览
+
+![ds-6.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-6.png)
+
+在【配置】页面根据实际需要修改配置
+
+![ds-7.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-7.png)

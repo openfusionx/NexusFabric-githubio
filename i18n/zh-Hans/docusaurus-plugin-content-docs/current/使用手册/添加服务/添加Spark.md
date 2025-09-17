@@ -1,19 +1,21 @@
----
-sidebar_position: 4
-sidebar_label: 添加Spark
----
-## 添加Spark
+点击【服务管理】【添加服务】选择 Spark3
 
-选择SPARK3。
+![spark-1.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-1.png)
 
-![image-20221108211119496](../img/image-20221108211119496.png)
+点击【下一步】Spark没有master角色 直接点击【下一步】
 
-Spark没有Master角色，直接点击【下一步】。
+![spark-2.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-2.png)
 
-![image-20221108211220203](../img/image-20221108211220203.png)
+![spark-3.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-3.png)
 
-![image-20221108211306931](../img/image-20221108211306931.png)
+在【服务配置】页面，根据实际需要修改服务配置
 
-点击【下一步】，安装Spark。
+![spark-4.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-4.png)
 
-![image-20221108211431351](../img/image-20221108211431351.png)
+点击【下一步】开始安装Spark3
+
+![spark-5.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-5.png)
+
+安装完成后，在【服务管理】部分查看Spark3的实例情况
+
+![spark-6.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/spark-6.png)
