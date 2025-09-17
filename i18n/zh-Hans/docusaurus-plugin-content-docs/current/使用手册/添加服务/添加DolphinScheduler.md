@@ -11,28 +11,28 @@ flush privileges;
 
 【服务管理】【添加服务】选择DolphinScheduler
 
-![ds-1.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-1.png)
+![ds-1.png](../imgs/2/ds-1.png)
 
 分配master角色
 
-![ds-2.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-2.png)
+![ds-2.png](../imgs/2/ds-2.png)
 
 添加workerserver
 
-![ds-3.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-3.png)
+![ds-3.png](../imgs/2/ds-3.png)
 
 在【服务配置】页面，修改配置，注意之前创建的mysql所在的服务器与用户名密码
 
-![ds-4.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-4.png)
+![ds-4.png](../imgs/2/ds-4.png)
 
 开始安装
 
-![ds-5.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-5.png)
+![ds-5.png](../imgs/2/ds-5.png)
 
 完成之后在【服务管理】中查看总览
 
-![ds-6.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-6.png)
+![ds-6.png](../imgs/2/ds-6.png)
 
 在【配置】页面根据实际需要修改配置
 
-![ds-7.png](/i18n/zh-Hans/docusaurus-plugin-content-docs/current/使用手册/imgs/2/ds-7.png)
+![ds-7.png](../imgs/2/ds-7.png)

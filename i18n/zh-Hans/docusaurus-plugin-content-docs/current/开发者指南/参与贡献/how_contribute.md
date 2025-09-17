@@ -12,11 +12,11 @@ title: 如何贡献
 
 我们鼓励任何形式的参与社区，如：
 
-将遇到的问题通过 github 上 [issue](https://github.com/DataLinkDC/dlink/issues) 的形式反馈出来
+将遇到的问题通过 github 上 [issue](https://github.com/openfusionx/NexusFabric/issues) 的形式反馈出来
 
 - 为开源项目点一个Star
-- 将遇到的问题通过 github 上 [issue](https://github.com/DataLinkDC/dlink/issues) 的形式反馈出来
-- 回答别人遇到的 [issue](https://github.com/DataLinkDC/dlink/issues) 问题
+- 将遇到的问题通过 github 上 [issue](https://github.com/openfusionx/NexusFabric/issues) 的形式反馈出来
+- 回答别人遇到的 [issue](https://github.com/openfusionx/NexusFabric/issues) 问题
 - 讨论新 Feature 的实现方案
 - 帮助完善文档及官网
 - 帮助项目增加测试用例
@@ -40,7 +40,7 @@ title: 如何贡献
 
 - 大家在寻找开源项目的时候, 大多数情况也是会先看Star比较多的项目，所以请给您觉得好的开源项目点一个小小的Star, 让好的项目能够被更多人看到
 
-  欢迎打开连接点一个小小的star https://github.com/datasophon/datasophon
+  欢迎打开连接点一个小小的star https://github.com/openfusionx/NexusFabric
 
 ![image-20230511231809586](./img/image-20230511231809586.png)
 
