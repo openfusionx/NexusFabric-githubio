@@ -1,25 +1,27 @@
----
-sidebar_position: 2
-sidebar_label: 添加HDFS
----
-## 添加HDFS
+点击【服务管理】【添加服务】选择HDFS
 
-部署HDFS，其中JournalNode需部署三台，NameNode部署两台，ZKFC和NameNode部署在相同机器上。如下图：
+![hdfs-1.png](../imgs/2/hdfs-1.png)
 
-![image-20221106221553593](../img/image-20221106221553593.png)
+部署HDFS，其中JournalNode需部署三台，NameNode部署两台，ZKFC和NameNode部署在相同机器上
 
-点击【下一步】，选择DataNode部署节点。
+![hdfs-2.png](../imgs/2/hdfs-2.png)
 
-![image-20221106221704101](../img/image-20221106221704101.png)
+点击【下一步】，选择DataNode部署节点和HDFSClient部署节点
 
-根据实际情况修改配置，例如修改DataNode数据存储目录。
+![hdfs-3.png](../imgs/2/hdfs-3.png)
 
-![image-20221106221847247](../img/image-20221106221847247.png)
+点击【下一步】，按照实际需求配置服务，比如修改集群名称、DataNode数据存储目录。
+
+![hdfs-4.png](../imgs/2/hdfs-4.png)
 
 点击【下一步】，开始安装Hdfs。
 
-![image-20221106222043504](../img/image-20221106222043504.png)
+![hdfs-5.png](../imgs/2/hdfs-5.png)
 
 安装成功后，即可查看HDFS服务总览页面。
 
-![image-20221106222540788](../img/image-20221106222540788.png)
+![hdfs-6.png](../imgs/2/hdfs-6.png)
+
+可以根据实际需要再配置页修改hdfs集群配置
+
+![hdfs-7.png](../imgs/2/hdfs-7.png)

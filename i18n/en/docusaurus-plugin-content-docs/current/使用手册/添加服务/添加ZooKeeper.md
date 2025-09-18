@@ -1,28 +1,20 @@
----
-sidebar_position: 1
-sidebar_label: 添加ZooKeeper
----
+点击【服务管理】--> 【添加服务】选择ZooKeeper
 
-# 添加ZooKeeper
+![图片1.png](../imgs/2/图片1.png)
 
-点击【添加服务】，选择ZooKeeper。
+分配ZooKeeper master服务角色部署节点，master需要时奇数个 3 或是 5个。
 
-![image-20221106215738313](../img/image-20221106215738313.png)
+![图片2.png](../imgs/2/图片2.png)
 
-分配ZooKeeper master服务角色部署节点，zk需部3台或5台。
+Zookeeper不区分worker与client服务角色，直接点击【下一步】
+根据实际需求调整服务配置
 
-![image-20221106215806978](../img/image-20221106215806978.png)
+![图片3.png](../imgs/2/图片3.png)
 
-Zk没有worker与client服务角色，直接点击【下一步】跳过。
+点击【下一步】 安装 Zookeeper
 
-根据实际情况修改Zk服务配置。
+![图片4.png](../imgs/2/图片4.png)
 
-![image-20221106220025173](../img/image-20221106220025173.png)
+安装成功后在【服务管理】中查看Zookeeper总览
 
-点击【下一步】，进行zk服务安装。
-
-![image-20221106220144089](../img/image-20221106220144089.png)
-
-安装成功后即可查看Zookeeper服务总览页面。
-
-![image-20221106220253266](../img/image-20221106220253266.png)
+![图片5.png](../imgs/2/图片5.png)

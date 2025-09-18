@@ -1,11 +1,4 @@
----
-sidebar_position: 12
-sidebar_label: 添加StreamPark
----
-
-# 添加StreamPark
-
-初始化StreamPark数据库。
+初始化StreamPark数据库
 
 ```
 CREATE DATABASE streampark DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
@@ -14,18 +7,26 @@ GRANT ALL PRIVILEGES ON streampark.* TO 'streampark'@'localhost' IDENTIFIED BY '
 flush privileges;
 ```
 
-执行/opt/datasophon/DDP/packages目录下**streampark.sql**创建streampark数据库表。
+【服务管理】【添加服务】选择 StreamPark
 
-添加StreamPark。
+![StreamPark-1.png](../imgs/2/StreamPark-1.png)
 
-![image-20221128213117639](../img/image-20221128213117639.png)
+分配Master角色
 
-根据实际情况修改配置。
+![StreamPark-2.png](../imgs/2/StreamPark-2.png)
 
-![image-20221128213202009](../img/image-20221128213202009.png)
+跳过worker与client角色 直接点击【下一步】
 
-安装成功后可查看StreamPark总览页面，可通过WebUi跳转到StreamPark用户页面。
+![StreamPark-3.png](../imgs/2/StreamPark-3.png)
 
-![image-20221128213744193](../img/image-20221128213744193.png)
+在【服务配置】页面，根据实际需求修改配置，重点注意创建mysql库时的服务器地址与用户名密码
 
-![image-20221128213402376](../img/image-20221128213402376.png)
+![StreamPark-4.png](../imgs/2/StreamPark-4.png)
+
+点击【下一步】开始安装
+
+![StreamPark-5.png](../imgs/2/StreamPark-5.png)
+
+安装完成之后在【服务管理】点击StreamPark查看总览
+
+![StreamPark-6.png](../imgs/2/StreamPark-6.png)

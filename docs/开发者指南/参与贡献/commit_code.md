@@ -20,13 +20,13 @@ title: 提交代码须知
 * 把自己仓库 clone 到本地
 
   ```sh
-  git clone https://github.com/datasophon/datasophon.git
+  git clone https://github.com/openfusionx/NexusFabric.git
   ```
 
 * 添加远端仓库地址，命名为 upstream
 
   ```sh
-  git remote add upstream https://github.com/datasophon/datasophon.git
+  git remote add upstream https://github.com/openfusionx/NexusFabric.git
   ```
 
 

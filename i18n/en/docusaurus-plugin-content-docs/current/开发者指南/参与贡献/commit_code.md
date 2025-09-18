@@ -8,9 +8,9 @@ title: 提交代码须知
 
 # 提交代码
 
-* 首先从远端仓库 *https://github.com/datasophon/datasophon.git*  fork 一份代码到自己的仓库中
+* 首先从远端仓库 *https://github.com/openfusionx/NexusFabric.git*  fork 一份代码到自己的仓库中
 
-* 远端仓库中目前有三个分支：
+* 远端仓库中目前有两个分支：
 
     * main正常交付分支
       发布稳定版本以后，将稳定版本分支的代码合并到 main上。
@@ -20,13 +20,13 @@ title: 提交代码须知
 * 把自己仓库 clone 到本地
 
   ```sh
-  git clone https://github.com/datasophon/datasophon.git
+  git clone https://github.com/openfusionx/NexusFabric.git
   ```
 
 * 添加远端仓库地址，命名为 upstream
 
   ```sh
-  git remote add upstream https://github.com/datasophon/datasophon.git
+  git remote add upstream https://github.com/openfusionx/NexusFabric.git
   ```
 
 

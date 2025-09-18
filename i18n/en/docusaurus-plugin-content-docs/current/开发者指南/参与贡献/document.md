@@ -11,12 +11,12 @@ title: 文档贡献
 
 ### 获取文档项目
 
-NexusFabric项目的文档维护在 [datasophon-website](https://github.com/datasophon/datasophon-website) 。
+NexusFabric项目的文档维护在 [NexusFabric-githubio](https://github.com/openfusionx/NexusFabric-githubio) 。
 
 首先你需要先将源项目 fork 到自己的 github 仓库中，然后将 fork 的文档克隆到本地计算机中。
 
 ```shell
-git clone https://github.com/<your-github-user-name>/datasophon-website
+git clone https://github.com/<your-github-user-name>/NexusFabric-githubio
 ```
 ### 文档环境
 
